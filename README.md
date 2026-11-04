@@ -5,8 +5,6 @@
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Crispr9cas/DL-Docking-Studio/blob/main/Molecular_docking_DL_v12.ipynb)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
-> **Nota:** substitua `XXXXXXX` pelo número do registro após a primeira release ser arquivada no Zenodo.
-
 ## Visão geral
 
 O **DL-Docking Studio** é um pipeline automatizado de docking molecular com *deep learning*, implementado em Python/Jupyter com interface Gradio e projetado para o Google Colab com GPU NVIDIA. Ele integra, em um único fluxo reprodutível:
