@@ -9,12 +9,19 @@ abstract: >-
   dinâmica molecular (OpenMM). Implementado em Python/Jupyter com interface Gradio para Google Colab.
 version: 12.0.0
 date-released: "2026-11-04"
+doi: 10.5281/zenodo.23958930
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23958930
 license: MIT
 repository-code: "https://github.com/Crispr9cas/DL-Docking-Studio"
 url: "https://github.com/Crispr9cas/DL-Docking-Studio"
 authors:
   - family-names: "Sousa Filho"
     given-names: "Walter Paixão de"
+    affiliation: "Universidade Franciscana (UFN)"
+  - family-names: "Limberger"
+    given-names: "Jane Beatriz"
     affiliation: "Universidade Franciscana (UFN)"
 keywords:
   - molecular docking
