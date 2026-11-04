@@ -1,0 +1,33 @@
+# DL-Docking Studio v12.0 - dependências Python
+# Binários externos (não instaláveis via pip): GNINA 1.3.2 (GPU/CUDA) e OpenBabel (obabel). Ver README.md.
+
+# Quimioinformática e docking
+rdkit
+spyrmsd
+posebusters
+prolif
+MDAnalysis
+biopython
+
+# Preparo do receptor e dinâmica molecular
+openmm
+pdbfixer @ git+https://github.com/openmm/pdbfixer.git
+
+# Núcleo científico
+numpy
+scipy
+pandas
+torch
+cloudpickle
+
+# Interface, planilhas e visualização
+gradio>=5.0,<6.0
+openpyxl
+matplotlib
+seaborn
+adjustText
+tqdm
+
+# Relatório acadêmico (.docx / .pdf)
+python-docx
+weasyprint

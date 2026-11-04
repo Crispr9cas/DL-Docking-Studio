@@ -1,0 +1,36 @@
+{
+  "title": "DL-Docking Studio v12.0: pipeline automatizado de docking molecular com rescoring 3D-CNN (GNINA), auditoria PoseBusters e mapeamento ProLIF",
+  "upload_type": "software",
+  "version": "12.0.0",
+  "publication_date": "2026-11-04",
+  "description": "<p>O <b>DL-Docking Studio</b> é um pipeline automatizado de docking molecular implementado em Python/Jupyter com interface Gradio, desenvolvido para execução em Google Colab com GPU NVIDIA.</p><p>Principais módulos: (i) preparo reprodutível do receptor (PDBFixer/OpenMM, protonação em pH 7,4, preservação de metais e cofatores catalíticos); (ii) preparo do ligante (dessalinização, ionização por regras, ETKDGv3, MMFF94, cargas de Gasteiger, torções ativas); (iii) docking com GNINA 1.3.2 e rescoring por rede neural convolucional 3D (CNNscore, CNNaffinity, CNNvariance); (iv) auditoria físico-química das poses com PoseBusters (modo dock) e RMSD simétrico (spyrmsd); (v) mapeamento de interações com ProLIF em bolsão de 12 Å, com contatos geométricos de contingência; (vi) ingestão do AlphaFold DB por código UniProt, com auditoria de pLDDT do bolsão; (vii) benchmark frente ao ligante nativo, planilhas, gráficos de publicação e relatório acadêmico (.docx/.pdf/.tex) e (viii) script turnkey de dinâmica molecular com OpenMM.</p><p>Escores de docking são estimativas computacionais e não substituem medidas experimentais de afinidade.</p>",
+  "creators": [
+    {
+      "name": "Sousa Filho, Walter Paixão de",
+      "affiliation": "Universidade Franciscana (UFN)"
+    }
+  ],
+  "keywords": [
+    "molecular docking",
+    "GNINA",
+    "deep learning",
+    "3D-CNN",
+    "PoseBusters",
+    "ProLIF",
+    "AlphaFold",
+    "OpenMM",
+    "cheminformatics",
+    "structural bioinformatics",
+    "virtual screening"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "por",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Crispr9cas/DL-Docking-Studio",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
