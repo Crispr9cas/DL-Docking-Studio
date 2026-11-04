@@ -47,7 +47,7 @@ Recomenda-se uma cópia do notebook por usuário: o motor guarda estado global e
 Requisitos: Python 3.10+, GPU NVIDIA com CUDA (recomendado), [OpenBabel](https://openbabel.org) (`obabel` no PATH) e o binário do [GNINA 1.3.2](https://github.com/gnina/gnina/releases/tag/v1.3.2) em `/usr/local/bin/gnina` (ou ajuste `GNINA_BIN` na célula).
 
 ```bash
-git clone https://github.com/Crispr9cas/DL-Docking-Studio.git
+git clone [https://github.com/Crispr9cas/DL-Docking-Studio.git](https://github.com/Crispr9cas/DL-Docking-Studio.git)
 cd DL-Docking-Studio
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
@@ -58,31 +58,28 @@ jupyter lab Molecular_docking_DL_v12.ipynb
 
 A célula de setup foi escrita para o ambiente do Colab (apt, `/usr/local/bin`, caminhos CUDA). Em máquinas locais, instale os binários externos manualmente e revise esses trechos antes de executar.
 
-## Como citar
+Como citar
+ABNT (NBR 10520 / NBR 6023):
 
-**ABNT (NBR 10520 / NBR 6023):**
+SOUSA FILHO, Walter Paixão de; LIMBERGER, Jane Beatriz. DL-Docking Studio: pipeline automatizado de docking molecular com rescoring 3D-CNN. Versão 12.0.0. Zenodo, 2026. DOI: 10.5281/zenodo.23958930. Disponível em: https://github.com/Crispr9cas/DL-Docking-Studio.
 
-> SOUSA FILHO, Walter Paixão de. **DL-Docking Studio**: pipeline automatizado de docking molecular com rescoring 3D-CNN. Versão 12.0.0. Santa Maria: Universidade Franciscana, 2026. Disponível em: https://github.com/Crispr9cas/DL-Docking-Studio. DOI: 10.5281/zenodo.XXXXXXX.
-
-Citação no texto: (SOUSA FILHO, 2026).
+Citação no texto: (SOUSA FILHO; LIMBERGER, 2026).
 
 **BibTeX:**
 
 ```bibtex
 @software{sousafilho2026dldocking,
-  author    = {Sousa Filho, Walter Paix{\~a}o de},
+  author    = {Sousa Filho, Walter Paix{\~a}o de and Limberger, Jane Beatriz},
   title     = {{DL-Docking Studio}: pipeline automatizado de docking molecular com rescoring 3D-CNN},
   version   = {12.0.0},
   year      = {2026},
-  publisher = {Universidade Franciscana},
-  url       = {https://github.com/Crispr9cas/DL-Docking-Studio},
-  doi       = {10.5281/zenodo.XXXXXXX}
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23958930},
+  url       = {[https://github.com/Crispr9cas/DL-Docking-Studio](https://github.com/Crispr9cas/DL-Docking-Studio)}
 }
 ```
 
-O arquivo [`CITATION.cff`](CITATION.cff) permite a citação direta pelo botão "Cite this repository" do GitHub. Ao usar os resultados, cite também as ferramentas subjacentes (GNINA, AutoDock Vina, PoseBusters, ProLIF, spyrmsd, RDKit, OpenMM, AlphaFold).
+Autoria e licença
+Autores: Walter Paixão de Sousa Filho e Jane Beatriz Limberger, Universidade Franciscana (UFN), 2026.
 
-## Autoria e licença
-
-- **Autor:** Walter Paixão de Sousa Filho, Universidade Franciscana (UFN), 2026.
-- **Licença:** [MIT](LICENSE).
+Licença: MIT.
